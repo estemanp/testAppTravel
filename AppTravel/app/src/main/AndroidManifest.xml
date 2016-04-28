@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.estemanp.apptravel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".View.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.AddPersonActivity" android:label="@string/title_add_person" />
+        <activity android:name=".View.LoginActivity" android:label="@string/title_login"/>
+        <activity android:name=".View.ConsultFlightActivity" android:label="@string/title_consult_flight"/>
+        <activity android:name=".View.DetailFlightActivity" android:label="@string/title_detail_flight"/>
+        <activity android:name=".View.DetailReservationActivity" android:label="@string/title_detail_reservation"/>
+        <activity android:name=".View.LandingActivity" android:label="@string/title_landing"/>
+        <activity android:name=".View.ReservationFlightActivity" android:label="@string/title_reservation"/>
+        <activity android:name=".View.ShowFlightActivity" android:label="@string/title_show_flight"/>
+    </application>
+</manifest>
